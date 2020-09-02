@@ -2089,6 +2089,7 @@
 		padding: 0 1rem;
 		text-decoration: none;
 		width: 100%;
+		resize: none;
 	}
 
 		input[type="text"]:invalid,
@@ -4024,3 +4025,15 @@
 			}
 
 		}
+
+#titleForm {
+	font-size: 2rem;
+}
+
+#form {
+	border-radius: 1em;
+	border-width: 2mm;
+	background-color: rgb(214, 214, 214);
+	padding: 1em;
+	padding-bottom: 0.2em;
+}
